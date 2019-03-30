@@ -7,6 +7,8 @@ public class TreeSetExercise {
     public static void main(String[] args) {
         Set<Person> set = new TreeSet<>();
         set.add(new Person("Bob", "Bobsen"));
+        set.add(new Person("Robby", "Robson"));
+        set.add(new Person("Zaffie", "Antonson"));
         set.forEach(item -> System.out.println(item));
 
     }
