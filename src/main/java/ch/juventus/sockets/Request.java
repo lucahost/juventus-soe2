@@ -26,7 +26,7 @@ public class Request implements Serializable {
     }
 
     public String getLastName() {
-        if (isBodyPerson()) {
+        if (isBodyString()) {
             return (String) payload;
         } else {
             return null;
