@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Person {
 
-    private String firstName;
-    private String name;
+    public String firstName;
+    public String name;
     private Address address;
     boolean hasKids;
 
